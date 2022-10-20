@@ -311,7 +311,7 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #d0dcd7;
 }
 
 #hero p {
@@ -345,7 +345,7 @@ h6 {
 
 @media (max-width: 992px) {
   #hero {
-    text-align: center;
+    background-size: contain;
   }
 
   #hero h1 {
@@ -380,7 +380,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #ddf3de;
 }
 
 .section-title h2::before {
@@ -415,7 +415,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #05bb78;
 }
 
 .about .content ul {
@@ -453,7 +453,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  background: #45505b;
 }
 
 .facts .count-box i {
@@ -476,7 +476,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #011426;
+  color: #fff;
 }
 
 .facts .count-box p {
@@ -503,7 +503,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: #fff;
 }
 
 .skills .progress .skill .val {
@@ -512,7 +512,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f2f3f5;
+  background: #f2f3f500;
 }
 
 .skills .progress-bar {
