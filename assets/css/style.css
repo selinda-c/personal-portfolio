@@ -965,16 +965,16 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: rgba(255, 255, 255, 0);
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #05bb78;
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #d2eedb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -987,7 +987,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: rgb(215, 209, 209);
 }
 
 .contact .info p {
@@ -1005,13 +1005,13 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #05bb78;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: rgba(255, 255, 255, 0);
 }
 
 .contact .php-email-form .form-group {
@@ -1113,7 +1113,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #a1a2a2;
-  color: #45505b;
+  color: rgba(255, 255, 255, 0.791);
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1144,7 +1144,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #05bb78;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.737);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
