@@ -33,6 +33,15 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+h5 {
+  text-transform: capitalize;
+  color: #05bb78;
+}
+
+ul {
+  list-style: none;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -682,12 +691,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 40px;
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  max-height: 400px;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -742,6 +752,10 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.swiper-slide {
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
